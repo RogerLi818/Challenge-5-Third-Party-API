@@ -18,7 +18,9 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" />
+    <link rel="stylesheet" href="./Assets/CSS/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -29,10 +31,59 @@
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-      <!-- Timeblocks go here -->
+      <!-- Timeblocks go here for all work hours from 9AM to 5PM-->
+      <ul Class="">
+        <li class="d-flex">
+          <p  class="hour col-2">9AM</p>
+          <!-- set up each textarea id to match the time in p -->
+          <textarea id="9" class="row col-9"></textarea>
+          <button id="time-9" class="saveBtn col-1 "><span class="oi oi-document"></span></button>
+        </li>
+        <li class="d-flex">
+          <p  class="hour col-2">10AM</p>
+          <textarea id="10" class="row col-9"></textarea>
+          <button id="time-10" class="saveBtn col-1"><span class="oi oi-document"></span></button>
+        </li>
+        <li class="d-flex">
+          <p  class="hour col-2">11AM</p>
+          <textarea id="11" class="row col-9"></textarea>
+          <button id="time-11" class="saveBtn col-1"><span class="oi oi-document"></span></button>
+        </li>        
+        <li class="d-flex">
+          <p id="12" class="hour col-2">12PM</p>
+          <textarea id="12" class="row col-9"></textarea>
+          <button  id="time-12" class="saveBtn col-1"><span class="oi oi-document"></span></button>
+        </li>        
+        <li class="d-flex">
+          <p  class="hour col-2">1PM</p>
+          <textarea id="13" class="row col-9"></textarea>
+          <button id="time-13" class="saveBtn col-1"><span class="oi oi-document"></span></button>
+        </li>        
+        <li class="d-flex">
+          <p  class="hour col-2">2PM</p>
+          <textarea id="14" class="row col-9"></textarea>
+          <button id="time-14" class="saveBtn col-1"><span class="oi oi-document"></span></button>
+        </li>        
+        <li class="d-flex">
+          <p  class="hour col-2">3PM</p>
+          <textarea id="15" class="row col-9"></textarea>
+          <button id="time-15" class="saveBtn col-1"><span class="oi oi-document"></span></button>
+        </li>        
+        <li class="d-flex">
+          <p  class="hour col-2">4PM</p>
+          <textarea id="16" class="row col-9"></textarea>
+          <button id="time-16" class="saveBtn col-1"><span class="oi oi-document"></span></button>
+        </li>        
+        <li class="d-flex">
+          <p class="hour col-2">5PM</p>
+          <textarea id="17" class="row col-9"></textarea>
+          <button id="time-17" class="saveBtn col-1"><span class="oi oi-document"></span></button>
+        </li>
+      </ul>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./Assets/JS/script.js"></script>
   </body>
 </html>
