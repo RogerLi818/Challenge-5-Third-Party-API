@@ -40,11 +40,11 @@ $(".saveBtn").click(function(){
 $("#9").val(localStorage.getItem("9AM"));
 $("#10").val(localStorage.getItem("10AM"));
 $("#11").val(localStorage.getItem("11AM"));
-$("#12").val(localStorage.getItem("12AM"));
-$("#13").val(localStorage.getItem("13AM"));
-$("#14").val(localStorage.getItem("14AM"));
-$("#15").val(localStorage.getItem("15AM"));
-$("#16").val(localStorage.getItem("16AM"));
-$("#17").val(localStorage.getItem("17AM"));
+$("#12").val(localStorage.getItem("12PM"));
+$("#13").val(localStorage.getItem("1PM"));
+$("#14").val(localStorage.getItem("2PM"));
+$("#15").val(localStorage.getItem("3PM"));
+$("#16").val(localStorage.getItem("4PM"));
+$("#17").val(localStorage.getItem("5PM"));
 
 
